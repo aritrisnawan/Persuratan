@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:id="@+id/imageView"
+        android:src="@mipmap/ic_launcher_pp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/edittext_login_form"
+        android:hint="Username"
+        android:textColorHint="@color/colorBlack"
+        android:inputType="textPersonName"
+        android:id="@+id/txt_username"
+        android:textSize="18dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edittext_login_form"
+        android:hint="Password"
+        android:textColorHint="@color/colorBlack"
+        android:inputType="textPassword"
+        android:id="@+id/txt_password"
+        android:layout_below="@+id/txt_username"
+        android:layout_alignLeft="@+id/txt_username"
+        android:layout_alignStart="@+id/txt_username" />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="LOGIN"
+        android:textSize="15dp"
+        android:background="@drawable/button_login_form"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/txt_password"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:text="Pimpinan Pusat Muhammadiyah"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

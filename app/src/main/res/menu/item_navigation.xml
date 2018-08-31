@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="all"
+        android:visible="true">
+        <item
+            android:id="@+id/navigation1"
+            android:checked="false"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/navigation2"
+            android:checked="false"
+            android:icon="@drawable/ic_mail_black_24dp"
+            android:title="@string/suratmasuk" />
+        <item
+            android:id="@+id/navigation3"
+            android:checked="false"
+            android:icon="@drawable/ic_drafts_black_24dp"
+            android:title="@string/suratkeluar" />
+    </group>
+
+    <item
+        android:id="@+id/navigasi_kategori_2"
+        android:title="@string/navigasi_kategori_2">
+        <menu>
+            <item
+                android:id="@+id/navigation4"
+                android:checked="false"
+                android:icon="@drawable/ic_event_note_black_24dp"
+                android:title="@string/infromasi" />
+            <item
+                android:id="@+id/navigation5"
+                android:checked="false"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/logout" />
+
+        </menu>
+    </item>
+
+
+
+</menu>

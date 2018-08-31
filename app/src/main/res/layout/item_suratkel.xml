@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp" >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/itemsuratmap"
+        android:src="@drawable/ic_markunread_mailbox_black_24dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemsuratkel"
+        android:layout_toRightOf="@+id/itemsuratmap"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/itemsuratkel"
+        android:layout_below="@+id/itemsuratkel"
+        android:id="@+id/itemsuratkell"
+        android:textSize="15sp"/>
+</RelativeLayout>

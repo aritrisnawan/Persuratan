@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/darkgray"
+    tools:context=".Update.DiterimaSMActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:id="@+id/editsm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Surat Masuk"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bga"
+            android:layout_marginBottom="-0dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp">
+
+            <EditText
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textColor="#fff"
+                android:id="@+id/idsme"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/testt"
+                android:layout_marginTop="0dp"
+                android:hint="Id Surat Masuk"
+                android:textColorHint="#ffffff"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:drawablePadding="10dp">
+            </EditText>
+
+            <EditText
+                android:textColor="#fff"
+                android:id="@+id/disposi"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/testt"
+                android:layout_marginTop="10dp"
+                android:hint="Disposisi"
+                android:textColorHint="#ffffff"
+                android:paddingLeft="20dp"
+                android:drawablePadding="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+            </EditText>
+
+            <EditText
+                android:textColor="#fff"
+                android:id="@+id/catate"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/testt"
+                android:layout_marginTop="10dp"
+                android:hint="Catatan"
+                android:textColorHint="#ffffff"
+                android:paddingLeft="25dp"
+                android:drawablePadding="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+            </EditText>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

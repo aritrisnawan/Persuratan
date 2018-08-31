@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Persuratan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+    <string name="navigation_view_item_1" />
+    <string name="navigation_view_item_2" />
+    <string name="navigation_view_item_3" />
+    <string name="navigasi_kategori_2"> </string>
+    <string name="navigation_view_item_4" />
+    <string name="navigation_view_item_5" />
+    <string name="profile">Profile</string>
+    <string name="suratmasuk">Surat Masuk</string>
+    <string name="password">Password</string>
+    <string name="suratkeluar">Surat Keluar</string>
+    <string name="alamat">Alamat</string>
+    <string name="nama">Nama</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="infromasi">Informasi</string>
+    <string name="tanggal_lahir">tanggal lahir (ex = 1995-09-22)</string>
+    <string name="logout">Logout</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_surat_keluar">SuratKeluarActivity</string>
+</resources>
